@@ -1,0 +1,77 @@
+/* Syntax highlighting */
+.LUA_PLN a {
+  text-decoration: none;
+  color: #b1b100 !important;
+}
+
+.LUA_KWD a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.MTA_KWD a {
+  text-decoration: none;
+  color: #0000b3;
+}
+
+.MTA_PLN_TYPE a {
+  text-decoration: none;
+  color: #008000;
+}
+
+.MTA_PLN_TYPE a:hover {
+    background: #88FF88; 
+    text-decoration: none;
+}
+
+.MTA_PLN_BOTH a {
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.MTA_PLN_BOTH:hover {
+    background: #DDDDFF; 
+    text-decoration: none;
+}
+
+.MTA_PLN_CLIENT a {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.MTA_PLN_CLIENT a:hover {
+    background: #FFCCCC; 
+    text-decoration: none;
+}
+
+
+.MTA_PLN_SERVER a {
+    color: #FF7F00;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.MTA_PLN_SERVER a:hover {
+    background: #FFCC66; 
+    text-decoration: none;
+}
+
+.MTA_STR_CLIENT_EV a {
+    color: inherit;
+    text-decoration: underline;
+}
+
+.MTA_STR_CLIENT_EV a:hover {
+    background: #ccffcc; 
+}
+
+.MTA_STR_SERVER_EV a {
+    color: inherit;
+    text-decoration: underline;
+}
+
+.MTA_STR_SERVER_EV a:hover {
+    background: #ccffcc; 
+}
